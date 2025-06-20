@@ -1,0 +1,3449 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       host                  3.24.0                USB      36     GET DESCRIPTOR Request DEVICE
+
+Frame 1: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387ba95e830
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 2]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.027868       3.24.0                host                  USB      46     GET DESCRIPTOR Response DEVICE
+
+Frame 2: 46 bytes on wire (368 bits), 46 bytes captured (368 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387ba95e830
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 18
+    [Request in: 1]
+    [Time from request: 0.027868000 seconds]
+    Control transfer stage: Complete (3)
+DEVICE DESCRIPTOR
+    bLength: 18
+    bDescriptorType: 0x01 (DEVICE)
+    bcdUSB: 0x0200
+    bDeviceClass: Device (0x00)
+    bDeviceSubClass: 0
+    bDeviceProtocol: 0 (Use class code info from Interface Descriptors)
+    bMaxPacketSize0: 64
+    idVendor: Yubico.com (0x1050)
+    idProduct: Yubikey 4/5 OTP+U2F+CCID (0x0407)
+    bcdDevice: 0x0543
+    iManufacturer: 1
+    iProduct: 2
+    iSerialNumber: 0
+    bNumConfigurations: 1
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.027898       host                  3.24.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 3: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bc7f32a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 4]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.030868       3.24.0                host                  USB      37     GET DESCRIPTOR Response CONFIGURATION
+
+Frame 4: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bc7f32a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 9
+    [Request in: 3]
+    [Time from request: 0.002970000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 150
+    bNumInterfaces: 3
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0x80  NOT SELF-POWERED  NO REMOTE-WAKEUP
+    bMaxPower: 15  (30mA)
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.030883       host                  3.24.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 5: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387ba4337c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 6]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.035868       3.24.0                host                  USB      178    GET DESCRIPTOR Response CONFIGURATION
+
+Frame 6: 178 bytes on wire (1424 bits), 178 bytes captured (1424 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387ba4337c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 150
+    [Request in: 5]
+    [Time from request: 0.004985000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 150
+    bNumInterfaces: 3
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0x80  NOT SELF-POWERED  NO REMOTE-WAKEUP
+    bMaxPower: 15  (30mA)
+INTERFACE DESCRIPTOR (0.0): class HID
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 1
+    bInterfaceClass: HID (0x03)
+    bInterfaceSubClass: Boot Interface (0x01)
+    bInterfaceProtocol: Keyboard (0x01)
+    iInterface: 0
+HID DESCRIPTOR
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x81  IN  Endpoint:1
+    bmAttributes: 0x03
+    wMaxPacketSize: 8
+    bInterval: 10
+INTERFACE DESCRIPTOR (1.0): class HID
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 0
+    bNumEndpoints: 2
+    bInterfaceClass: HID (0x03)
+    bInterfaceSubClass: No Subclass (0x00)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+HID DESCRIPTOR
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x04  OUT  Endpoint:4
+    bmAttributes: 0x03
+    wMaxPacketSize: 64
+    bInterval: 2
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x84  IN  Endpoint:4
+    bmAttributes: 0x03
+    wMaxPacketSize: 64
+    bInterval: 2
+INTERFACE DESCRIPTOR (2.0): class Smart Card
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 2
+    bAlternateSetting: 0
+    bNumEndpoints: 3
+    bInterfaceClass: Smart Card (0x0b)
+    bInterfaceSubClass: 0x00
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+SMART CARD DEVICE CLASS DESCRIPTOR
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x02  OUT  Endpoint:2
+    bmAttributes: 0x02
+    wMaxPacketSize: 64
+    bInterval: 0
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x82  IN  Endpoint:2
+    bmAttributes: 0x02
+    wMaxPacketSize: 64
+    bInterval: 0
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x83  IN  Endpoint:3
+    bmAttributes: 0x03
+    wMaxPacketSize: 8
+    bInterval: 32
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.037479       host                  3.24.0                USB      36     SET CONFIGURATION Request
+
+Frame 7: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bd4d7890
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_SELECT_CONFIGURATION (0x0000)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x00, Direction: OUT
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 8]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.044715       3.24.0                host                  USB      28     SET CONFIGURATION Response
+
+Frame 8: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bd4d7890
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_SELECT_CONFIGURATION (0x0000)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x00, Direction: OUT
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 0
+    [Request in: 7]
+    [Time from request: 0.007236000 seconds]
+    Control transfer stage: Complete (3)
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.044758       host                  3.24.0                USB      27     Unknown type 7f
+
+Frame 9: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bad852a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_MS_FEATURE_DESCRIPTOR (0x002a)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x00, Direction: OUT
+    URB transfer type: Unknown (0xff)
+    Packet Data Length: 0
+    [Response in: 10]
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.044760       3.24.0                host                  USB      27     Unknown type 7f
+
+Frame 10: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bad852a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_MS_FEATURE_DESCRIPTOR (0x002a)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x00, Direction: OUT
+    URB transfer type: Unknown (0xff)
+    Packet Data Length: 0
+    [Request in: 9]
+    [Time from request: 0.000002000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.044764       host                  3.24.0                USB      27     Unknown type 7f
+
+Frame 11: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387b1c6d530
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_MS_FEATURE_DESCRIPTOR (0x002a)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x00, Direction: OUT
+    URB transfer type: Unknown (0xff)
+    Packet Data Length: 0
+    [Response in: 12]
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.046875       3.24.0                host                  USB      44     GET STATUS Response
+
+Frame 12: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387b1c6d530
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 16
+    [Request in: 11]
+    [Time from request: 0.002111000 seconds]
+    Control transfer stage: Complete (3)
+wStatus: 0x0050
+Leftover Capture Data: 0000000104000300000000000000
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.047651       host                  3.24.0                USB      36     GET DESCRIPTOR Request STRING
+
+Frame 13: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bc3c96f0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 14]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.049870       3.24.0                host                  USB      32     GET DESCRIPTOR Response STRING
+
+Frame 14: 32 bytes on wire (256 bits), 32 bytes captured (256 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bc3c96f0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 4
+    [Request in: 13]
+    [Time from request: 0.002219000 seconds]
+    Control transfer stage: Complete (3)
+STRING DESCRIPTOR
+    bLength: 44
+    bDescriptorType: 0x03 (STRING)
+    bString: Y
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 0.049893       host                  3.24.0                USB      36     GET DESCRIPTOR Request STRING
+
+Frame 15: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bc2d4320
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 16]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 0.052871       3.24.0                host                  USB      72     GET DESCRIPTOR Response STRING
+
+Frame 16: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bc2d4320
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 44
+    [Request in: 15]
+    [Time from request: 0.002978000 seconds]
+    Control transfer stage: Complete (3)
+STRING DESCRIPTOR
+    bLength: 44
+    bDescriptorType: 0x03 (STRING)
+    bString: YubiKey OTP+FIDO+CCID
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 0.053824       host                  3.24.0                USB      36     GET DESCRIPTOR Request STRING
+
+Frame 17: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bed84530
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 18]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 0.055871       3.24.0                host                  USB      32     GET DESCRIPTOR Response STRING
+
+Frame 18: 32 bytes on wire (256 bits), 32 bytes captured (256 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bed84530
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 4
+    [Request in: 17]
+    [Time from request: 0.002047000 seconds]
+    Control transfer stage: Complete (3)
+STRING DESCRIPTOR
+    bLength: 44
+    bDescriptorType: 0x03 (STRING)
+    bString: Y
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 0.055890       host                  3.24.0                USB      36     GET DESCRIPTOR Request STRING
+
+Frame 19: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bc74d530
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 20]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 0.058872       3.24.0                host                  USB      72     GET DESCRIPTOR Response STRING
+
+Frame 20: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bc74d530
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 44
+    [Request in: 19]
+    [Time from request: 0.002982000 seconds]
+    Control transfer stage: Complete (3)
+STRING DESCRIPTOR
+    bLength: 44
+    bDescriptorType: 0x03 (STRING)
+    bString: YubiKey OTP+FIDO+CCID
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 0.059658       host                  3.24.0                USB      36     GET DESCRIPTOR Request STRING
+
+Frame 21: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bcee6050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 22]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 0.061870       3.24.0                host                  USB      32     GET DESCRIPTOR Response STRING
+
+Frame 22: 32 bytes on wire (256 bits), 32 bytes captured (256 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bcee6050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 4
+    [Request in: 21]
+    [Time from request: 0.002212000 seconds]
+    Control transfer stage: Complete (3)
+STRING DESCRIPTOR
+    bLength: 44
+    bDescriptorType: 0x03 (STRING)
+    bString: Y
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 0.061889       host                  3.24.0                USB      36     GET DESCRIPTOR Request STRING
+
+Frame 23: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bedf5ae0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 24]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 0.064871       3.24.0                host                  USB      72     GET DESCRIPTOR Response STRING
+
+Frame 24: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bedf5ae0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 44
+    [Request in: 23]
+    [Time from request: 0.002982000 seconds]
+    Control transfer stage: Complete (3)
+STRING DESCRIPTOR
+    bLength: 44
+    bDescriptorType: 0x03 (STRING)
+    bString: YubiKey OTP+FIDO+CCID
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 0.102924       host                  3.24.0                USBHID   36     SET_IDLE Request
+
+Frame 25: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bd29ca50
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CLASS_INTERFACE (0x001b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x00, Direction: OUT
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 26]
+    Control transfer stage: Setup (0)
+    [bInterfaceClass: HID (0x03)]
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 0.103870       3.24.0                host                  USBHID   28     SET_IDLE Response
+
+Frame 26: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bd29ca50
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x00, Direction: OUT
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 0
+    [Request in: 25]
+    [Time from request: 0.000946000 seconds]
+    Control transfer stage: Complete (3)
+    [bInterfaceClass: HID (0x03)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 0.103938       host                  3.24.0                USBHID   36     GET DESCRIPTOR Request HID Report
+
+Frame 27: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bdbb2a50
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_INTERFACE (0x0028)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 28]
+    Control transfer stage: Setup (0)
+    [bInterfaceClass: HID (0x03)]
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 0.107869       3.24.0                host                  USBHID   99     GET DESCRIPTOR Response HID Report
+
+Frame 28: 99 bytes on wire (792 bits), 99 bytes captured (792 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bdbb2a50
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 71
+    [Request in: 27]
+    [Time from request: 0.003931000 seconds]
+    Control transfer stage: Complete (3)
+    [bInterfaceClass: HID (0x03)]
+HID Report
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 0.109094       host                  3.24.1                USB      27     URB_INTERRUPT in
+
+Frame 29: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bd4d7010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x81, Direction: IN
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [bInterfaceClass: HID (0x03)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 0.109109       host                  3.24.1                USB      27     URB_INTERRUPT in
+
+Frame 30: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387b291b560
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x81, Direction: IN
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [bInterfaceClass: HID (0x03)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 0.110118       host                  3.24.0                USBHID   36     SET_IDLE Request
+
+Frame 31: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387b3f18a50
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CLASS_INTERFACE (0x001b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x00, Direction: OUT
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 32]
+    Control transfer stage: Setup (0)
+    [bInterfaceClass: HID (0x03)]
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 0.110871       3.24.0                host                  USBHID   28     SET_IDLE Response
+
+Frame 32: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387b3f18a50
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x00, Direction: OUT
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 0
+    [Request in: 31]
+    [Time from request: 0.000753000 seconds]
+    Control transfer stage: Complete (3)
+    [bInterfaceClass: HID (0x03)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 0.110954       host                  3.24.0                USBHID   36     GET DESCRIPTOR Request HID Report
+
+Frame 33: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bd4e9a50
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_INTERFACE (0x0028)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 34]
+    Control transfer stage: Setup (0)
+    [bInterfaceClass: HID (0x03)]
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 0.113873       3.24.0                host                  USBHID   62     GET DESCRIPTOR Response HID Report
+
+Frame 34: 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bd4e9a50
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 34
+    [Request in: 33]
+    [Time from request: 0.002919000 seconds]
+    Control transfer stage: Complete (3)
+    [bInterfaceClass: HID (0x03)]
+HID Report
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 0.115237       host                  3.24.4                USB      27     URB_INTERRUPT in
+
+Frame 35: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.4]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bded8a00
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x84, Direction: IN
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [bInterfaceClass: HID (0x03)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 0.115254       host                  3.24.4                USB      27     URB_INTERRUPT in
+
+Frame 36: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.4]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bd6dda00
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x84, Direction: IN
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [bInterfaceClass: HID (0x03)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 0.116273       host                  3.24.0                USB      36     GET STATUS Request
+
+Frame 37: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387ba006010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_STATUS_FROM_DEVICE (0x0013)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 38]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 0.117883       3.24.0                host                  USB      30     GET STATUS Response
+
+Frame 38: 30 bytes on wire (240 bits), 30 bytes captured (240 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387ba006010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 2
+    [Request in: 37]
+    [Time from request: 0.001610000 seconds]
+    Control transfer stage: Complete (3)
+wStatus: 0x0000
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 0.118380       host                  3.24.0                USB      36     GET DESCRIPTOR Request STRING
+
+Frame 39: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387c0a02050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 40]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 0.120872       3.24.0                host                  USB      32     GET DESCRIPTOR Response STRING
+
+Frame 40: 32 bytes on wire (256 bits), 32 bytes captured (256 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387c0a02050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 4
+    [Request in: 39]
+    [Time from request: 0.002492000 seconds]
+    Control transfer stage: Complete (3)
+STRING DESCRIPTOR
+    bLength: 14
+    bDescriptorType: 0x03 (STRING)
+    bString: Y
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 0.120934       host                  3.24.0                USB      36     GET DESCRIPTOR Request STRING
+
+Frame 41: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387ba006010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 42]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 0.123877       3.24.0                host                  USB      42     GET DESCRIPTOR Response STRING
+
+Frame 42: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387ba006010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 14
+    [Request in: 41]
+    [Time from request: 0.002943000 seconds]
+    Control transfer stage: Complete (3)
+STRING DESCRIPTOR
+    bLength: 14
+    bDescriptorType: 0x03 (STRING)
+    bString: Yubico
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 0.123925       host                  3.24.0                USB      36     GET DESCRIPTOR Request STRING
+
+Frame 43: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387c26d6050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 44]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 0.126872       3.24.0                host                  USB      32     GET DESCRIPTOR Response STRING
+
+Frame 44: 32 bytes on wire (256 bits), 32 bytes captured (256 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387c26d6050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 4
+    [Request in: 43]
+    [Time from request: 0.002947000 seconds]
+    Control transfer stage: Complete (3)
+STRING DESCRIPTOR
+    bLength: 44
+    bDescriptorType: 0x03 (STRING)
+    bString: Y
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 0.126922       host                  3.24.0                USB      36     GET DESCRIPTOR Request STRING
+
+Frame 45: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387c07e4890
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 46]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 0.129876       3.24.0                host                  USB      72     GET DESCRIPTOR Response STRING
+
+Frame 46: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387c07e4890
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 44
+    [Request in: 45]
+    [Time from request: 0.002954000 seconds]
+    Control transfer stage: Complete (3)
+STRING DESCRIPTOR
+    bLength: 44
+    bDescriptorType: 0x03 (STRING)
+    bString: YubiKey OTP+FIDO+CCID
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 0.129920       host                  3.24.0                USB      36     GET DESCRIPTOR Request STRING
+
+Frame 47: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387c24938a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 48]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 0.132875       3.24.0                host                  USB      32     GET DESCRIPTOR Response STRING
+
+Frame 48: 32 bytes on wire (256 bits), 32 bytes captured (256 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387c24938a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 4
+    [Request in: 47]
+    [Time from request: 0.002955000 seconds]
+    Control transfer stage: Complete (3)
+STRING DESCRIPTOR
+    bLength: 4
+    bDescriptorType: 0x03 (STRING)
+    wLANGID: English (United States) (0x0409)
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 0.132918       host                  3.24.0                USB      36     GET DESCRIPTOR Request STRING
+
+Frame 49: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387ba0ce530
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 50]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 0.135876       3.24.0                host                  USB      32     GET DESCRIPTOR Response STRING
+
+Frame 50: 32 bytes on wire (256 bits), 32 bytes captured (256 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387ba0ce530
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 4
+    [Request in: 49]
+    [Time from request: 0.002958000 seconds]
+    Control transfer stage: Complete (3)
+STRING DESCRIPTOR
+    bLength: 4
+    bDescriptorType: 0x03 (STRING)
+    wLANGID: English (United States) (0x0409)
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 0.136955       host                  3.24.3                USB      27     URB_INTERRUPT in
+
+Frame 51: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.3]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1eef010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x83, Direction: IN
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 80]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 0.136996       host                  3.24.2                USBCCID  37     CCID Packet - PC to Reader: Get Slot Status
+
+Frame 52: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bce9f560
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 10
+    [Response in: 53]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 0.137057       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 53: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bce9f560
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 52]
+    [Time from request: 0.000061000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 0.137165       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 54: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 55]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 0.137231       3.24.2                host                  USBCCID  37     CCID Packet - Reader to PC: Slot Status
+
+Frame 55: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 10
+    [Request in: 54]
+    [Time from request: 0.000066000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 0.142021       host                  3.24.0                USB      36     GET DESCRIPTOR Request STRING
+
+Frame 56: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387c0a02050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 57]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 0.143880       3.24.0                host                  USB      72     GET DESCRIPTOR Response STRING
+
+Frame 57: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387c0a02050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 44
+    [Request in: 56]
+    [Time from request: 0.001859000 seconds]
+    Control transfer stage: Complete (3)
+STRING DESCRIPTOR
+    bLength: 44
+    bDescriptorType: 0x03 (STRING)
+    bString: YubiKey OTP+FIDO+CCID
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 0.145559       host                  3.24.0                USBHID   37     SET_REPORT Request
+
+Frame 58: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bf0b88e0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER_EX (0x0032)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x00, Direction: OUT
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 9
+    [Response in: 59]
+    Control transfer stage: Setup (0)
+    [bInterfaceClass: HID (0x03)]
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 0.147882       3.24.0                host                  USBHID   28     SET_REPORT Response
+
+Frame 59: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387bf0b88e0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER_EX (0x0032)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x00, Direction: OUT
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 0
+    [Request in: 58]
+    [Time from request: 0.002323000 seconds]
+    Control transfer stage: Complete (3)
+    [bInterfaceClass: HID (0x03)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 0.152972       host                  3.24.2                USBCCID  37     CCID Packet - PC to Reader: ICC Power On
+
+Frame 60: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bfc5b560
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 10
+    [Response in: 61]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 0.153056       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 61: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bfc5b560
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 60]
+    [Time from request: 0.000084000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 0.153106       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 62: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 63]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 0.153903       3.24.2                host                  USBCCID  60     CCID Packet - Reader to PC: Data Block
+
+Frame 63: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 33
+    [Request in: 62]
+    [Time from request: 0.000797000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (23 bytes)
+
+0000  3b fd 13 00 00 81 31 fe 15 80 73 c0 21 c0 57 59   ;.....1...s.!.WY
+0010  75 62 69 4b 65 79 40                              ubiKey@
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 0.155461       host                  3.24.2                USBCCID  37     CCID Packet - PC to Reader: Get Parameters
+
+Frame 64: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1ff6270
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 10
+    [Response in: 65]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 0.155530       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 65: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1ff6270
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 64]
+    [Time from request: 0.000069000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 0.155585       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 66: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 67]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 0.155653       3.24.2                host                  USBCCID  44     CCID Packet - Reader to PC: Parameters
+
+Frame 67: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 17
+    [Request in: 66]
+    [Time from request: 0.000068000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Protocol Data Structure for Protocol T=1
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 0.156175       host                  3.24.2                USBCCID  53     CCID Packet - PC to Reader: Transfer Block
+
+Frame 68: 53 bytes on wire (424 bits), 53 bytes captured (424 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1cdd960
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 26
+    [Response in: 69]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (16 bytes)
+
+0000  00 a4 04 00 0b a0 00 00 03 97 43 49 44 5f 01 00   ..........CID_..
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 0.156248       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 69: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1cdd960
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 68]
+    [Time from request: 0.000073000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 0.156300       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 70: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 71]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 0.156890       3.24.2                host                  USBCCID  39     CCID Packet - Reader to PC: Data Block
+
+Frame 71: 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Request in: 70]
+    [Time from request: 0.000590000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (2 bytes)
+
+0000  6a 82                                             j.
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 0.157034       host                  3.24.0                USB      36     GET DESCRIPTOR Request STRING
+
+Frame 72: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387c0a02050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 82]
+    Control transfer stage: Setup (0)
+Setup Data
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 0.157120       host                  3.24.2                USBCCID  42     CCID Packet - PC to Reader: Transfer Block
+
+Frame 73: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1fb68e0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 15
+    [Response in: 74]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (5 bytes)
+
+0000  00 ca 7f 68 00                                    ...h.
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 0.157189       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 74: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1fb68e0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 73]
+    [Time from request: 0.000069000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 0.157249       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 75: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 76]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 0.157442       3.24.2                host                  USBCCID  39     CCID Packet - Reader to PC: Data Block
+
+Frame 76: 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Request in: 75]
+    [Time from request: 0.000193000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (2 bytes)
+
+0000  6d 00                                             m.
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 0.157677       host                  3.24.2                USBCCID  51     CCID Packet - PC to Reader: Transfer Block
+
+Frame 77: 51 bytes on wire (408 bits), 51 bytes captured (408 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bdad6050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 24
+    [Response in: 78]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (14 bytes)
+
+0000  00 a4 04 00 09 a0 00 00 03 08 00 00 10 00         ..............
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 0.157781       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 78: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bdad6050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 77]
+    [Time from request: 0.000104000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 0.157832       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 79: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 83]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 0.157881       3.24.3                host                  USB      29     URB_INTERRUPT in
+
+Frame 80: 29 bytes on wire (232 bits), 29 bytes captured (232 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.3]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1eef010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x83, Direction: IN
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 2
+    [Request in: 51]
+    [Time from request: 0.020926000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+Leftover Capture Data: 5003
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 0.157890       host                  3.24.3                USB      27     URB_INTERRUPT in
+
+Frame 81: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.3]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1eef010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x83, Direction: IN
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 0.158880       3.24.0                host                  USB      72     GET DESCRIPTOR Response STRING
+
+Frame 82: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffa387c0a02050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x80, Direction: IN
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 44
+    [Request in: 72]
+    [Time from request: 0.001846000 seconds]
+    Control transfer stage: Complete (3)
+STRING DESCRIPTOR
+    bLength: 44
+    bDescriptorType: 0x03 (STRING)
+    bString: YubiKey OTP+FIDO+CCID
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 0.159457       3.24.2                host                  USBCCID  58     CCID Packet - Reader to PC: Data Block
+
+Frame 83: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 31
+    [Request in: 79]
+    [Time from request: 0.001625000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (21 bytes)
+
+0000  61 11 4f 06 00 00 10 00 01 00 79 07 4f 05 a0 00   a.O.......y.O...
+0010  00 03 08 90 00                                    .....
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 0.159927       host                  3.24.2                USBCCID  37     CCID Packet - PC to Reader: ICC Power Off
+
+Frame 84: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c25c48a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 10
+    [Response in: 85]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 0.160003       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 85: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c25c48a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 84]
+    [Time from request: 0.000076000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 0.160057       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 86: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 87]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 0.160880       3.24.2                host                  USBCCID  37     CCID Packet - Reader to PC: Slot Status
+
+Frame 87: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 10
+    [Request in: 86]
+    [Time from request: 0.000823000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 0.172124       host                  3.24.2                USBCCID  37     CCID Packet - PC to Reader: ICC Power On
+
+Frame 88: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c0f114e0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 10
+    [Response in: 89]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 0.172238       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 89: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c0f114e0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 88]
+    [Time from request: 0.000114000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 0.172309       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 90: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 91]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 0.173035       3.24.2                host                  USBCCID  60     CCID Packet - Reader to PC: Data Block
+
+Frame 91: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 33
+    [Request in: 90]
+    [Time from request: 0.000726000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (23 bytes)
+
+0000  3b fd 13 00 00 81 31 fe 15 80 73 c0 21 c0 57 59   ;.....1...s.!.WY
+0010  75 62 69 4b 65 79 40                              ubiKey@
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 0.187944       host                  3.24.2                USBCCID  37     CCID Packet - PC to Reader: Get Parameters
+
+Frame 92: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c131a010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 10
+    [Response in: 93]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 0.187998       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 93: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c131a010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 92]
+    [Time from request: 0.000054000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 0.188047       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 94: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 95]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 0.188120       3.24.2                host                  USBCCID  44     CCID Packet - Reader to PC: Parameters
+
+Frame 95: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 17
+    [Request in: 94]
+    [Time from request: 0.000073000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Protocol Data Structure for Protocol T=1
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 0.190036       host                  3.24.2                USBCCID  51     CCID Packet - PC to Reader: Transfer Block
+
+Frame 96: 51 bytes on wire (408 bits), 51 bytes captured (408 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1fb68e0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 24
+    [Response in: 97]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (14 bytes)
+
+0000  00 a4 04 00 09 a0 00 00 03 08 00 00 10 00         ..............
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 0.190140       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 97: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1fb68e0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 96]
+    [Time from request: 0.000104000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 0.190195       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 98: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 99]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 0.191457       3.24.2                host                  USBCCID  58     CCID Packet - Reader to PC: Data Block
+
+Frame 99: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 31
+    [Request in: 98]
+    [Time from request: 0.001262000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (21 bytes)
+
+0000  61 11 4f 06 00 00 10 00 01 00 79 07 4f 05 a0 00   a.O.......y.O...
+0010  00 03 08 90 00                                    .....
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 0.191716       host                  3.24.2                USBCCID  48     CCID Packet - PC to Reader: Transfer Block
+
+Frame 100: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bdad6050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 21
+    [Response in: 101]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (11 bytes)
+
+0000  00 cb 3f ff 05 5c 03 5f c1 02 00                  ..?..\._...
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 0.191779       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 101: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bdad6050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 100]
+    [Time from request: 0.000063000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 0.191826       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 102: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 103]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 0.192445       3.24.2                host                  USBCCID  39     CCID Packet - Reader to PC: Data Block
+
+Frame 103: 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Request in: 102]
+    [Time from request: 0.000619000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (2 bytes)
+
+0000  6a 82                                             j.
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 0.196069       host                  3.24.2                USBCCID  48     CCID Packet - PC to Reader: Transfer Block
+
+Frame 104: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bfc5b560
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 21
+    [Response in: 105]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (11 bytes)
+
+0000  00 cb 3f ff 05 5c 03 5f c1 05 00                  ..?..\._...
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 0.196153       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 105: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bfc5b560
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 104]
+    [Time from request: 0.000084000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 0.196208       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 106: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 107]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 0.196884       3.24.2                host                  USBCCID  39     CCID Packet - Reader to PC: Data Block
+
+Frame 107: 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Request in: 106]
+    [Time from request: 0.000676000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (2 bytes)
+
+0000  6a 82                                             j.
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 0.197516       host                  3.24.2                USBCCID  48     CCID Packet - PC to Reader: Transfer Block
+
+Frame 108: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c131a010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 21
+    [Response in: 109]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (11 bytes)
+
+0000  00 cb 3f ff 05 5c 03 5f c1 0a 00                  ..?..\._...
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 0.197602       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 109: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c131a010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 108]
+    [Time from request: 0.000086000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 0.197659       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 110: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 111]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 0.198442       3.24.2                host                  USBCCID  39     CCID Packet - Reader to PC: Data Block
+
+Frame 111: 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Request in: 110]
+    [Time from request: 0.000783000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (2 bytes)
+
+0000  6a 82                                             j.
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 0.199015       host                  3.24.2                USBCCID  48     CCID Packet - PC to Reader: Transfer Block
+
+Frame 112: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1fb68e0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 21
+    [Response in: 113]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (11 bytes)
+
+0000  00 cb 3f ff 05 5c 03 5f c1 0b 00                  ..?..\._...
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 0.199118       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 113: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1fb68e0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 112]
+    [Time from request: 0.000103000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 0.199171       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 114: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 115]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 0.199889       3.24.2                host                  USBCCID  39     CCID Packet - Reader to PC: Data Block
+
+Frame 115: 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Request in: 114]
+    [Time from request: 0.000718000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (2 bytes)
+
+0000  6a 82                                             j.
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 0.200471       host                  3.24.2                USBCCID  48     CCID Packet - PC to Reader: Transfer Block
+
+Frame 116: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bdad6050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 21
+    [Response in: 117]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (11 bytes)
+
+0000  00 cb 3f ff 05 5c 03 5f c1 01 00                  ..?..\._...
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 0.200550       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 117: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bdad6050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 116]
+    [Time from request: 0.000079000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 0.200600       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 118: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 119]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 0.201021       3.24.2                host                  USBCCID  39     CCID Packet - Reader to PC: Data Block
+
+Frame 119: 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Request in: 118]
+    [Time from request: 0.000421000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (2 bytes)
+
+0000  6a 82                                             j.
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 0.201261       host                  3.24.2                USBCCID  48     CCID Packet - PC to Reader: Transfer Block
+
+Frame 120: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c195a8a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 21
+    [Response in: 121]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (11 bytes)
+
+0000  00 cb 3f ff 05 5c 03 5f c1 0c 00                  ..?..\._...
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 0.201365       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 121: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c195a8a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 120]
+    [Time from request: 0.000104000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 0.201416       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 122: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 123]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 0.201889       3.24.2                host                  USBCCID  39     CCID Packet - Reader to PC: Data Block
+
+Frame 123: 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Request in: 122]
+    [Time from request: 0.000473000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (2 bytes)
+
+0000  6a 82                                             j.
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 0.209155       host                  3.24.2                USBCCID  51     CCID Packet - PC to Reader: Transfer Block
+
+Frame 124: 51 bytes on wire (408 bits), 51 bytes captured (408 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c07e4890
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 24
+    [Response in: 125]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (14 bytes)
+
+0000  00 a4 04 00 09 a0 00 00 03 08 00 00 10 00         ..............
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 0.209241       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 125: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c07e4890
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 124]
+    [Time from request: 0.000086000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 0.209293       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 126: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 127]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 0.210457       3.24.2                host                  USBCCID  58     CCID Packet - Reader to PC: Data Block
+
+Frame 127: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 31
+    [Request in: 126]
+    [Time from request: 0.001164000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (21 bytes)
+
+0000  61 11 4f 06 00 00 10 00 01 00 79 07 4f 05 a0 00   a.O.......y.O...
+0010  00 03 08 90 00                                    .....
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 0.210692       host                  3.24.2                USBCCID  48     CCID Packet - PC to Reader: Transfer Block
+
+Frame 128: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c24938a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 21
+    [Response in: 129]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (11 bytes)
+
+0000  00 cb 3f ff 05 5c 03 5f c1 02 00                  ..?..\._...
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 0.210786       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 129: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c24938a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 128]
+    [Time from request: 0.000094000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 0.210831       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 130: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 131]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 0.211445       3.24.2                host                  USBCCID  39     CCID Packet - Reader to PC: Data Block
+
+Frame 131: 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Request in: 130]
+    [Time from request: 0.000614000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (2 bytes)
+
+0000  6a 82                                             j.
+
+No.     Time           Source                Destination           Protocol Length Info
+    132 0.214568       host                  3.24.2                USBCCID  48     CCID Packet - PC to Reader: Transfer Block
+
+Frame 132: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bfc5b560
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 21
+    [Response in: 133]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (11 bytes)
+
+0000  00 cb 3f ff 05 5c 03 5f c1 05 00                  ..?..\._...
+
+No.     Time           Source                Destination           Protocol Length Info
+    133 0.214668       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 133: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bfc5b560
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 132]
+    [Time from request: 0.000100000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    134 0.214717       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 134: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 135]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    135 0.215443       3.24.2                host                  USBCCID  39     CCID Packet - Reader to PC: Data Block
+
+Frame 135: 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Request in: 134]
+    [Time from request: 0.000726000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (2 bytes)
+
+0000  6a 82                                             j.
+
+No.     Time           Source                Destination           Protocol Length Info
+    136 0.215970       host                  3.24.2                USBCCID  48     CCID Packet - PC to Reader: Transfer Block
+
+Frame 136: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c131a010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 21
+    [Response in: 137]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (11 bytes)
+
+0000  00 cb 3f ff 05 5c 03 5f c1 0a 00                  ..?..\._...
+
+No.     Time           Source                Destination           Protocol Length Info
+    137 0.216064       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 137: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c131a010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 136]
+    [Time from request: 0.000094000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    138 0.216114       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 138: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 139]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    139 0.216881       3.24.2                host                  USBCCID  39     CCID Packet - Reader to PC: Data Block
+
+Frame 139: 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Request in: 138]
+    [Time from request: 0.000767000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (2 bytes)
+
+0000  6a 82                                             j.
+
+No.     Time           Source                Destination           Protocol Length Info
+    140 0.217433       host                  3.24.2                USBCCID  48     CCID Packet - PC to Reader: Transfer Block
+
+Frame 140: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1fb68e0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 21
+    [Response in: 141]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (11 bytes)
+
+0000  00 cb 3f ff 05 5c 03 5f c1 0b 00                  ..?..\._...
+
+No.     Time           Source                Destination           Protocol Length Info
+    141 0.217482       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 141: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1fb68e0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 140]
+    [Time from request: 0.000049000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    142 0.217527       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 142: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 143]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    143 0.217886       3.24.2                host                  USBCCID  39     CCID Packet - Reader to PC: Data Block
+
+Frame 143: 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Request in: 142]
+    [Time from request: 0.000359000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (2 bytes)
+
+0000  6a 82                                             j.
+
+No.     Time           Source                Destination           Protocol Length Info
+    144 0.218418       host                  3.24.2                USBCCID  48     CCID Packet - PC to Reader: Transfer Block
+
+Frame 144: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bdad6050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 21
+    [Response in: 145]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (11 bytes)
+
+0000  00 cb 3f ff 05 5c 03 5f c1 01 00                  ..?..\._...
+
+No.     Time           Source                Destination           Protocol Length Info
+    145 0.218485       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 145: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387bdad6050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 144]
+    [Time from request: 0.000067000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 0.218526       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 146: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 147]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    147 0.219021       3.24.2                host                  USBCCID  39     CCID Packet - Reader to PC: Data Block
+
+Frame 147: 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Request in: 146]
+    [Time from request: 0.000495000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (2 bytes)
+
+0000  6a 82                                             j.
+
+No.     Time           Source                Destination           Protocol Length Info
+    148 0.219223       host                  3.24.2                USBCCID  48     CCID Packet - PC to Reader: Transfer Block
+
+Frame 148: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c195a8a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 21
+    [Response in: 149]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (11 bytes)
+
+0000  00 cb 3f ff 05 5c 03 5f c1 0c 00                  ..?..\._...
+
+No.     Time           Source                Destination           Protocol Length Info
+    149 0.219351       3.24.2                host                  USB      27     URB_BULK out
+
+Frame 149: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c195a8a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x02, Direction: OUT
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 148]
+    [Time from request: 0.000128000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    150 0.219406       host                  3.24.2                USB      27     URB_BULK in
+
+Frame 150: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.24.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 151]
+    [bInterfaceClass: Smart Card (0x0b)]
+
+No.     Time           Source                Destination           Protocol Length Info
+    151 0.219888       3.24.2                host                  USBCCID  39     CCID Packet - Reader to PC: Data Block
+
+Frame 151: 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.24.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffa387c1f30010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 24
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Request in: 150]
+    [Time from request: 0.000482000 seconds]
+    [bInterfaceClass: Smart Card (0x0b)]
+USB CCID
+Data (2 bytes)
+
+0000  6a 82                                             j.

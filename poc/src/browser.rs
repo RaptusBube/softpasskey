@@ -137,5 +137,28 @@ fn locate_chrome() -> anyhow::Result<PathBuf> {
             if pb.exists() {return Ok(pb)}
         }
     }
+    #[cfg(target_os = "linux")]
+    {
+        let commands = ["google-chrome", "google-chrome-stable", "chromium", "chromium-browser"];
+        for cmd in &commands {
+            if let Ok(output) = Command::new("which").arg(cmd).output() {
+                if output.status.success() {
+                    let path_str = String::from_utf8_lossy(&output.stdout).trim().to_string();
+                    return Ok(PathBuf::from(path_str));
+                }
+            }
+        }
+
+        let candidates = [
+            "/usr/bin/google-chrome",
+            "/usr/bin/chromium-browser",
+            "/snap/bin/chromium",
+            "/var/lib/flatpak/exports/bin/com.google.Chrome",
+        ];
+        for p in &candidates {
+            let pb = PathBuf::from(p);
+            if pb.exists() { return Ok(pb); }
+        }
+    }
     anyhow::bail!("could not find chrome executable; supply manually and run browser first")
 }

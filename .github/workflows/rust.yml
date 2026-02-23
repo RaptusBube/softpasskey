@@ -12,14 +12,20 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./poc
 
     steps:
     - uses: actions/checkout@v4
 
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libudev-dev pkg-config
+
     - name: Build
-      working-directory: ./poc
       run: cargo build --verbose
 
     - name: Run tests
-      working-directory: ./poc
       run: cargo test --verbose

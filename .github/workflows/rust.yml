@@ -11,12 +11,15 @@ env:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
+
     - name: Build
+      working-directory: ./poc
       run: cargo build --verbose
+
     - name: Run tests
+      working-directory: ./poc
       run: cargo test --verbose
